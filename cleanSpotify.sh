@@ -5,7 +5,7 @@
 #    sed -i ${storage} ~/Library/Application\ Support/Spotify/prefs
 #    echo "add storage size to prefs file"
 #fi
-
+echo $(date)
 echo "Deleting com.spotify.client folder"
 rm -rf ~/Library/Caches/com.spotify.client/
 cd ~/Library/Application\ Support/Spotify/
